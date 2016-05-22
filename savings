@@ -1,0 +1,10 @@
+#This program calcul your savings
+
+amount_day = input("How many do you save by day?")
+
+savings_week = 7*amount_day	
+savings_year = 52*savings_week
+savings_month = savings_year/12
+
+print "You will save %r $ per week, %r $ per month and %r $ per year" % (savings_week,
+	savings_month, savings_year)
